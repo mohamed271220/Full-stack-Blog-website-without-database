@@ -1,7 +1,7 @@
 <%- include("partials/header")-%>
     <h1>HOME</h1>
     <p>
-        <%= homeStartingContent %>
+        <%= startingContent %>
     </p>
 
     <!-- arrays.forEach((array)=>{
@@ -13,7 +13,7 @@
         </h1>
         <p>
             <%= post.content.substring(0,100) +" "%>
-            <a href="/posts/<%=post.title%>" >Read more</a>
+            <a href="/posts/<%=post.id%>" >Read more</a>
         </p>
         <% }); %>
 
